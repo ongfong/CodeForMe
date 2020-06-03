@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #444;
+  --overlay-color: rgba(0, 0, 0, 0.4);
+}
+
+.section {
+  position: relative;
+  background: url('../../../assets//image2.jpg') no-repeat bottom center/cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navbar {
+  font-size: 1.2rem;
+  padding-top: 3%;
+  padding-bottom: 0.3rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+.navbar .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.navbar .logo {
+  font-size: 2rem;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  padding: 0 1rem;
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: rgb(241, 151, 151);
+}
+
+.navbar ul {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.navbar a {
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--overlay-color);
+}
+
+.sectioninner {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin: auto; */
+  max-width: 860px;
+  padding: 5rem 0;
+}
