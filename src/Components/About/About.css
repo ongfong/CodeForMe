@@ -3,27 +3,50 @@
   margin: 0;
   padding: 0;
 }
+
 .container {
-  width: 90%;
-  padding: 2rem 0;
-  margin: auto;
-}
-
-.container h1 {
-  text-decoration: underline red;
-}
-
-.content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 1rem 0;
 }
 
-.container .content {
+.aboutme_left {
   padding: 2rem;
 }
 
-.content_contact .content_contact_icon {
+.aboutme_left h1 {
+  padding: 2rem 0;
+  text-align: center;
+  text-decoration: underline rgb(40, 203, 231);
+}
+
+.aboutme_left .aboutme_left_content {
+  padding-top: 2rem;
+}
+
+.aboutme_left .aboutme_left_content p {
+  font-size: larger;
+  color: rgb(114, 110, 110);
+}
+
+.aboutme_left .aboutme_left_content strong {
+  color: green;
+  padding: 0 1rem;
+}
+
+.aboutme_left .aboutme_left_icon {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  padding: 2rem 0;
+}
+
+.aboutme_right {
+  margin: auto;
+}
+
+.aboutme_right img {
+  padding: 0.5rem 0.5rem;
+  width: 400px;
+  border-radius: 2px;
 }
