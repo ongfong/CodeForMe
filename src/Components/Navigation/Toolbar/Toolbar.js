@@ -38,7 +38,7 @@ const toolbar = () => {
         variant="dense"
         className={classes.toolbarSecondary}
       >
-        <Link to="/projects" className={classes.item}>
+        <Link to="/" className={classes.item}>
           Projects
         </Link>
         <Link to="/about" className={classes.item}>
@@ -50,7 +50,7 @@ const toolbar = () => {
       </div>
       <div>
         <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/" exact component={Projects} />
       </div>
     </div>
   );

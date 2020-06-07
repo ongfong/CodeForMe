@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 .toolbarSecondary {
   width: 100%;
   text-align: center;
@@ -16,8 +17,8 @@
 
 .toolbarSecondary .item:hover {
   padding: 0 2rem;
-  font-size: larger;
-  color: green;
+  font-size: x-large;
+  color: rgb(40, 203, 231);
   cursor: pointer;
 }
 
@@ -28,5 +29,5 @@
 
 .container .showcase img {
   width: 100%;
-  height: 58vh;
+  height: 70vh;
 }
